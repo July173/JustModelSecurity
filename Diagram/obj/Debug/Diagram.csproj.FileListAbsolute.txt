@@ -1,0 +1,7 @@
+C:\Users\Asus\source\repos\ModelSecurity\Diagram\bin\Debug\Diagram2.dll.config
+C:\Users\Asus\source\repos\ModelSecurity\Diagram\bin\Debug\Diagram2.dll
+C:\Users\Asus\source\repos\ModelSecurity\Diagram\bin\Debug\Diagram2.pdb
+C:\Users\Asus\source\repos\ModelSecurity\Diagram\obj\Debug\Diagram.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\ModelSecurity\Diagram\obj\Debug\Diagram.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\ModelSecurity\Diagram\obj\Debug\Diagram2.dll
+C:\Users\Asus\source\repos\ModelSecurity\Diagram\obj\Debug\Diagram2.pdb

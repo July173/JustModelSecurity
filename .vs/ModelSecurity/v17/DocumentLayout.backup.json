@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7001B48D-7D69-4644-A871-DC76A6A1CADC}|Web\\Web.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7001B48D-7D69-4644-A871-DC76A6A1CADC}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\data\\universaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|solutionrelative:data\\universaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\data\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|solutionrelative:data\\basedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\business\\universalbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}|Business\\Business.csproj|solutionrelative:business\\universalbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\business\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}|Business\\Business.csproj|solutionrelative:business\\basebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F26253A5-B5D2-485D-ABD2-7488ADF59553}|Entity\\Entity.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F26253A5-B5D2-485D-ABD2-7488ADF59553}|Entity\\Entity.csproj|solutionrelative:entity\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7001B48D-7D69-4644-A871-DC76A6A1CADC}|Web\\Web.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7001B48D-7D69-4644-A871-DC76A6A1CADC}|Web\\Web.csproj|solutionrelative:web\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\data\\ibasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|solutionrelative:data\\ibasedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\business\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB84AC26-C7E7-41FA-BA49-C4FAA4979228}|Business\\Business.csproj|solutionrelative:business\\ibasebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|c:\\users\\asus\\source\\repos\\modelsecurity\\data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9838CAA-0595-41C2-BEF6-5D8D3A21F4F8}|Data\\Data.csproj|solutionrelative:data\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Entity\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Entity\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Entity\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Entity\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAuwFwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:52:33.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Web\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Web\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "Web\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:19:18.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UniversalBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Business\\UniversalBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\UniversalBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Business\\UniversalBusiness.cs",
+              "RelativeToolTip": "Business\\UniversalBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:18:25.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Business\\BaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\BaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Business\\BaseBusiness.cs",
+              "RelativeToolTip": "Business\\BaseBusiness.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:17:01.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBaseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Business\\IBaseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\IBaseBusiness.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Business\\IBaseBusiness.cs",
+              "RelativeToolTip": "Business\\IBaseBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:16:06.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:04:43.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UniversalData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\UniversalData.cs",
+              "RelativeDocumentMoniker": "Data\\UniversalData.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\UniversalData.cs",
+              "RelativeToolTip": "Data\\UniversalData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:03:49.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBaseData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\IBaseData.cs",
+              "RelativeDocumentMoniker": "Data\\IBaseData.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\IBaseData.cs",
+              "RelativeToolTip": "Data\\IBaseData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:02:46.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\BaseData.cs",
+              "RelativeDocumentMoniker": "Data\\BaseData.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\BaseData.cs",
+              "RelativeToolTip": "Data\\BaseData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:47:34.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonData.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\PersonData.cs",
+              "RelativeDocumentMoniker": "Data\\PersonData.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Data\\PersonData.cs",
+              "RelativeToolTip": "Data\\PersonData.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwLYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:44:31.228Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

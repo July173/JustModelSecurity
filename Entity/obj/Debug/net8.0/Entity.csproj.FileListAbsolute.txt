@@ -1,0 +1,60 @@
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\bscl\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\bscl\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\bscl\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\bscl\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\bscl\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\ReyvingF\OneDrive\Escritorio\ModelSecurity\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\ReyvingF\OneDrive\Documentos\trabajos-Sena\2025\Jhon Corredor\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\Asus\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\Asus\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.runtimeconfig.json
+C:\Users\Asus\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\Asus\source\repos\ModelSecurity\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\Entity.genruntimeconfig.cache
+C:\Users\Asus\source\repos\ModelSecurity\Entity\obj\Debug\net8.0\ref\Entity.dll
