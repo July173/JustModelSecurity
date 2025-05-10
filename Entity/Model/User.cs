@@ -17,9 +17,6 @@ namespace Entity.Model
         public Person Person { get; set; }
 
         public ICollection<UserRol> UserRol { get; set; }
-        public ICollection<UserSede> UserSede { get; set; }
-        public Instructor Instructor { get; set; }
-        public Aprendiz Aprendiz { get; set; }
 
     }
 }

@@ -4774,11 +4774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\JustModelSecurity\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\Asus\\source\\repos\\JustModelSecurity\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\ModelSecurity\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\source\\repos\\JustModelSecurity\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

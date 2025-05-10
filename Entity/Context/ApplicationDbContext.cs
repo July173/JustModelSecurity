@@ -7,7 +7,6 @@ using System.Data;
 using System.Reflection;
 using System.Reflection.Emit;
 using Module = Entity.Model.Module;
-using Process = Entity.Model.Process;
 
 
 namespace Entity.Contexts
@@ -40,32 +39,16 @@ namespace Entity.Contexts
 
         ///DB SETS
         public DbSet<Rol> Rol { get; set; }
-        public DbSet<Verification> Verification { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<Person> Person { get; set; }
         public DbSet<UserRol> UserRol { get; set; }
-        public DbSet<Sede> Sede { get; set; }
-        public DbSet<UserSede> UserSede { get; set; }
-        public DbSet<Aprendiz> Aprendiz { get; set; }
-        public DbSet<Instructor> Instructor { get; set; }
-        public DbSet<Process> Process { get; set; }
-        public DbSet<Program> Program { get; set; }
-        public DbSet<InstructorProgram> InstructorProgram { get; set; }
-        public DbSet<AprendizProgram> AprendizProgram { get; set; }
-        public DbSet<AprendizProcessInstructor> AprendizProcessInstructor { get; set; }
         public DbSet<Form> Form { get; set; }
         public DbSet<Module> Module { get; set; }
         public DbSet<FormModule> FormModule { get; set; }
         public DbSet<RolFormPermission> RolFormPermission { get; set; }
         public DbSet<Permission> Permission { get; set; }
-        public DbSet<TypeModality> TypeModality { get; set; }
-        public DbSet<State> State { get; set; }
-        public DbSet<RegisterySofia> RegisterySofia { get; set; }
-        public DbSet<Regional> Regional { get; set; }
-        public DbSet<Center> Center { get; set; }
-        public DbSet<Enterprise> Enterprise { get; set; }
+      
         public DbSet<ChangeLog> ChangeLog { get; set; }
-        public DbSet<Concept> Concept { get; set; }
 
 
 
@@ -94,96 +77,6 @@ namespace Entity.Contexts
                 .WithMany(r => r.UserRol)
                 .HasForeignKey(ur => ur.RolId);
 
-            //Relacion de muchos a muchos tabla pivote UserSede
-            modelBuilder.Entity<UserSede>()
-                .HasOne(us => us.User)
-                .WithMany(u => u.UserSede)
-                .HasForeignKey(us => us.UserId);
-
-            modelBuilder.Entity<UserSede>()
-                .HasOne(us => us.Sede)
-                .WithMany(s => s.UserSede)
-                .HasForeignKey(us => us.SedeId);
-
-            //Relacion de 1 a 1 entre Aprendiz y User
-            modelBuilder.Entity<Aprendiz>()
-                .HasOne(a => a.User)
-                .WithOne(u => u.Aprendiz)
-                .HasForeignKey<Aprendiz>(a => a.UserId);
-
-            //Relacion de 1 a 1 entre instructor y user
-            modelBuilder.Entity<Instructor>()
-                .HasOne(i => i.User)
-                .WithOne(u => u.Instructor)
-                .HasForeignKey<Instructor>(i => i.UserId);
-
-            //Relacion muchos a muchos tabla pivote AprendizProgram
-            modelBuilder.Entity<AprendizProgram>()
-                .HasOne(ap => ap.Aprendiz)
-                .WithMany(a => a.AprendizProgram)
-                .HasForeignKey(ap => ap.AprendizId);
-
-            modelBuilder.Entity<AprendizProgram>()
-            .HasOne(ap => ap.Program)
-            .WithMany(p => p.AprendizProgram)
-            .HasForeignKey(ap => ap.ProgramId);
-
-            //Relacion de muchos a muchos tabla pivote InstructorProgram
-            modelBuilder.Entity<InstructorProgram>()
-            .HasOne(ip => ip.Instructor)
-            .WithMany(i => i.InstructorProgram)
-            .HasForeignKey(ip => ip.InstructorId);
-
-            modelBuilder.Entity<InstructorProgram>()
-            .HasOne(ip => ip.Program)
-            .WithMany(p => p.InstructorProgram)
-            .HasForeignKey(ip => ip.ProgramId);
-
-            //Relacion de muchos a muchos de la tabla pivote AprendizProcessInstructor
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.TypeModality)
-            .WithMany(tm => tm.AprendizProcessInstructor)
-            .HasForeignKey(api => api.TypeModalityId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.RegisterySofia)
-            .WithMany(rs => rs.AprendizProcessInstructor)
-            .HasForeignKey(api => api.RegisterySofiaId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.Concept)
-            .WithMany(c => c.AprendizProcessInstructor)
-            .HasForeignKey(api => api.ConceptId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.Enterprise)
-            .WithMany(e => e.AprendizProcessInstructor)
-            .HasForeignKey(api => api.EnterpriseId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.Process)
-            .WithMany(p => p.AprendizProcessInstructor)
-            .HasForeignKey(api => api.ProcessId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.Aprendiz)
-            .WithMany(a => a.AprendizProcessInstructor)
-            .HasForeignKey(api => api.AprendizId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.Instructor)
-            .WithMany(i => i.AprendizProcessInstructor)
-            .HasForeignKey(api => api.InstructorId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.State)
-            .WithMany(s => s.AprendizProcessInstructor)
-            .HasForeignKey(api => api.StateId);
-
-            modelBuilder.Entity<AprendizProcessInstructor>()
-            .HasOne(api => api.Verification)
-            .WithMany(v => v.AprendizProcessInstructor)
-            .HasForeignKey(api => api.VerificationId);
 
             //Relacion de muchos a muchos tabla pivote de FormModule
             modelBuilder.Entity<FormModule>()
@@ -212,18 +105,6 @@ namespace Entity.Contexts
                 .WithMany(p => p.RolFormPermissions)
                 .HasForeignKey(rfp => rfp.PermissionId);
 
-
-            //Relacion de 1 a muchos entre Center y Regional
-            modelBuilder.Entity<Center>()
-           .HasOne(c => c.Regional)
-           .WithMany(r => r.Center)
-           .HasForeignKey(c => c.RegionalId);
-
-            //Relacion de 1 a muchos entre Sede y center
-            modelBuilder.Entity<Sede>()
-            .HasOne(s => s.Center)
-            .WithMany(c => c.Sede)
-            .HasForeignKey(s =>  s.CenterId);
 
 
             base.OnModelCreating(modelBuilder);
