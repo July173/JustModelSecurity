@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagram", "Diagram\Diagram.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{7001B48D-7D69-4644-A871-DC76A6A1CADC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profiles", "Profiles\Profiles.csproj", "{8405BA6A-02D1-49DE-877A-8AAAF3987C28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{7001B48D-7D69-4644-A871-DC76A6A1CADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7001B48D-7D69-4644-A871-DC76A6A1CADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7001B48D-7D69-4644-A871-DC76A6A1CADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8405BA6A-02D1-49DE-877A-8AAAF3987C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8405BA6A-02D1-49DE-877A-8AAAF3987C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8405BA6A-02D1-49DE-877A-8AAAF3987C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8405BA6A-02D1-49DE-877A-8AAAF3987C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

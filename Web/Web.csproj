@@ -26,6 +26,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj" />
     <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\Profiles\Profiles.csproj" />
+    <ProjectReference Include="..\Profile\Profiles.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,14 +1,21 @@
 using System;
 using Business;
+using Business.Interfaces;
+using Business.Services;
 using Data;
+using Data.Interfaces;
+using Data.Repositories;
 using Entity.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped(typeof(IBaseData<>), typeof(UniversalData<>));
-builder.Services.AddScoped(typeof(IBaseBusiness<>), typeof(UniversalBusiness<>));
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped(typeof(IBaseService<,>), typeof(BaseService<,>));
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 
 // Add services to the container.

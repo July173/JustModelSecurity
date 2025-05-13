@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Data.Interfaces;
 using Entity.Contexts;
-using Entity.DTOs.Person;
-using Entity.Model;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using Nest;
 
-namespace Data
+namespace Data.Repositories   
 {
-    public class BaseData<T> : IBaseData<T> where T : class
+    public class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly DbContext _context;
+        protected readonly ApplicationDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        public BaseData(DbContext context)
+        public Repository(ApplicationDbContext context)
         {
             _context = context;
             _dbSet = _context.Set<T>();

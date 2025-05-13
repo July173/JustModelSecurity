@@ -20,45 +20,45 @@ namespace Business
             _logger = logger;
         }
 
-        public async Task<IEnumerable<PersonDto>> GetAllPeopleAsync()
-        {
-            try
-            {
-                var people = await _personData.GetAllAsync();
-                return MapToDTOList(people);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al obtener todas las personas");
-                throw new ExternalServiceException("Base de datos", "Error al recuperar la lista de personas", ex);
-            }
-        }
+        //public async Task<IEnumerable<PersonDto>> GetAllPeopleAsync()
+        //{
+        //    try
+        //    {
+        //        var people = await _personData.GetAllAsync();
+        //        return MapToDTOList(people);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, "Error al obtener todas las personas");
+        //        throw new ExternalServiceException("Base de datos", "Error al recuperar la lista de personas", ex);
+        //    }
+        //}
 
-        public async Task<PersonDto> GetPersonByIdAsync(int id)
-        {
-            if (id <= 0)
-            {
-                _logger.LogWarning("Se intentó obtener una persona con ID inválido: {PersonId}", id);
-                throw new ValidationException("id", "El ID de la persona debe ser mayor que cero");
-            }
+        //public async Task<PersonDto> GetPersonByIdAsync(int id)
+        //{
+        //    if (id <= 0)
+        //    {
+        //        _logger.LogWarning("Se intentó obtener una persona con ID inválido: {PersonId}", id);
+        //        throw new ValidationException("id", "El ID de la persona debe ser mayor que cero");
+        //    }
 
-            try
-            {
-                var person = await _personData.GetByIdAsync(id);
-                if (person == null)
-                {
-                    _logger.LogInformation("No se encontró ninguna persona con ID: {PersonId}", id);
-                    throw new EntityNotFoundException("Person", id);
-                }
+        //    try
+        //    {
+        //        var person = await _personData.GetByIdAsync(id);
+        //        if (person == null)
+        //        {
+        //            _logger.LogInformation("No se encontró ninguna persona con ID: {PersonId}", id);
+        //            throw new EntityNotFoundException("Person", id);
+        //        }
 
-                return MapToDTO(person);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al obtener la persona con ID: {PersonId}", id);
-                throw new ExternalServiceException("Base de datos", $"Error al recuperar la persona con ID {id}", ex);
-            }
-        }
+        //        return MapToDTO(person);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, "Error al obtener la persona con ID: {PersonId}", id);
+        //        throw new ExternalServiceException("Base de datos", $"Error al recuperar la persona con ID {id}", ex);
+        //    }
+        //}
 
         public async Task<PersonDto> CreatePersonAsync(PersonDto personDto)
         {
