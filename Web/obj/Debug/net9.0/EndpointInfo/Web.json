@@ -1338,17 +1338,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PersonUpdateDto"
+                "$ref": "#/components/schemas/PersonDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PersonUpdateDto"
+                "$ref": "#/components/schemas/PersonDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PersonUpdateDto"
+                "$ref": "#/components/schemas/PersonDto"
               }
             }
           }
@@ -3201,40 +3201,6 @@
           "typeIdentification": {
             "type": "string",
             "nullable": true
-          },
-          "numberIdentification": {
-            "type": "integer",
-            "format": "int64"
-          }
-        },
-        "additionalProperties": false
-      },
-      "PersonUpdateDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "secondName": {
-            "type": "string",
-            "nullable": true
-          },
-          "firstLastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "secondLastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "phoneNumber": {
-            "type": "integer",
-            "format": "int64"
           },
           "numberIdentification": {
             "type": "integer",

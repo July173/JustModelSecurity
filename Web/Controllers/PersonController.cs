@@ -43,7 +43,7 @@ namespace Web.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(PersonUpdateDto dto)
+        public async Task<IActionResult> Update(PersonDto dto)
         {
             var entity = _mapper.Map<PersonDto>(dto);
             await _service.UpdateAsync(entity); // solo si el servicio espera un DTO
@@ -58,7 +58,11 @@ namespace Web.Controllers
             await _service.DeleteAsync(id);
             return Ok();
         }
+
     }
+
+   
+
 
 
 

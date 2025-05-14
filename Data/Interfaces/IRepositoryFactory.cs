@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Data.Interfaces
 {
-   public  interface IRepositoryFactory
+   public interface IRepositoryFactory<T> where T : class
     {
+        Task UpdatePartialAsync(T entity);
     }
 }
