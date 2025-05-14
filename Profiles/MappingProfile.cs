@@ -16,10 +16,7 @@ namespace Profiles
         {
 
 
-            CreateMap<Person, PersonDto>();
-            CreateMap<PersonDto, Person>();
-            CreateMap<PersonUpdateDto, PersonDto>();
-            CreateMap<Person, PersonUpdateDto>();
+            
 
 
             // etc...

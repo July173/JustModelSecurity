@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entity.Model.Interfaces;
 
 namespace Entity.Model
 {
-    public class Form
+    public class Form : IActivable, IActiveDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

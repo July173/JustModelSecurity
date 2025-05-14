@@ -60,35 +60,35 @@ namespace Business
         //    }
         //}
 
-        public async Task<PersonDto> CreatePersonAsync(PersonDto personDto)
-        {
-            try
-            {
-                ValidatePerson(personDto);
+        //public async Task<PersonDto> CreatePersonAsync(PersonDto personDto)
+        //{
+        //    try
+        //    {
+        //        ValidatePerson(personDto);
 
-                // Validar si el email ya existe
-                var existingPerson = await _personData.GetByDocumentAsync(personDto.NumberIdentification);
-                if (existingPerson != null)
-                {
-                    throw new ValidationException("El numero de documento ya está registrado.");
-                }
+        //        // Validar si el email ya existe
+        //        var existingPerson = await _personData.GetByDocumentAsync(personDto.NumberIdentification);
+        //        if (existingPerson != null)
+        //        {
+        //            throw new ValidationException("El numero de documento ya está registrado.");
+        //        }
 
-                var person = MapToEntity(personDto);
-                var created = await _personData.CreateAsync(person);
+        //        var person = MapToEntity(personDto);
+        //        var created = await _personData.CreateAsync(person);
 
-                return MapToDTO(created);
-            }
-            catch (ValidationException)
-            {
-                // Dejar pasar validaciones para que el controlador las maneje con BadRequest
-                throw;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al crear nueva persona: {Name}", personDto?.FirstName ?? "null");
-                throw new ExternalServiceException("Base de datos", "Error al crear la persona", ex);
-            }
-        }
+        //        return MapToDTO(created);
+        //    }
+        //    catch (ValidationException)
+        //    {
+        //        // Dejar pasar validaciones para que el controlador las maneje con BadRequest
+        //        throw;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, "Error al crear nueva persona: {Name}", personDto?.FirstName ?? "null");
+        //        throw new ExternalServiceException("Base de datos", "Error al crear la persona", ex);
+        //    }
+        //}
 
         public async Task<bool> UpdateParcialPersonAsync(PersonUpdateDto dto)
         {

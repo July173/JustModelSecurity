@@ -7,11 +7,12 @@ using AutoMapper;
 using Business.Interfaces;
 using Data;
 using Data.Interfaces;
+using Entity.Model.Interfaces;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Business.Services
 {
-    public class BaseService<TDto, TEntity> : IBaseService<TDto, TEntity> where TEntity : class
+    public  class BaseService<TDto, TEntity> : IBaseService<TDto, TEntity> where TEntity : class
     {
         protected readonly IRepository<TEntity> _repository;
         protected readonly IMapper _mapper;
@@ -33,9 +34,17 @@ namespace Business.Services
             return _mapper.Map<TDto>(entity);
         }
 
-        public async Task AddAsync(TDto dto)
+        public virtual async Task AddAsync(TDto dto)
         {
             var entity = _mapper.Map<TEntity>(dto);
+
+            // Asignar DateTime.Now si existe la propiedad CreateDate
+            var property = typeof(TEntity).GetProperty("CreateDate");
+            if (property != null && property.PropertyType == typeof(DateTime))
+            {
+                property.SetValue(entity, DateTime.Now);
+            }
+
             await _repository.CreateAsync(entity);
         }
 
@@ -50,6 +59,14 @@ namespace Business.Services
             var entity = await _repository.GetByIdAsync(id);
             _repository.DeleteAsync(id);
         }
+
+        public virtual async Task<bool> SetActiveAsync<TActiveDto>(TActiveDto dto)
+         where TActiveDto : IActiveDto
+        {
+            return await _repository.SetActiveAsync(dto.Id, dto.Active);
+        }
+
+
 
     }
 

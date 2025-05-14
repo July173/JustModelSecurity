@@ -13,6 +13,7 @@ namespace Data.Interfaces
         Task<T> CreateAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(int id);
+        Task<bool> SetActiveAsync(int id, bool active); 
     }
    
 }

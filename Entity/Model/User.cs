@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entity.Model.Interfaces;
 
 namespace Entity.Model
 {
-    public class User
+    public class User : IActivable, IActiveDto
     {
         public int Id { get; set; }
         public string Username { get; set; }

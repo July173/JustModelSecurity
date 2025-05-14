@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Interfaces
+namespace Entity.Model.Interfaces
 {
-   public interface IRepositoryFactory
+    public interface IActiveDto
     {
+        int Id { get; set; }
+        bool Active { get; set; }
     }
+
 }

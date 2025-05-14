@@ -171,10 +171,10 @@ namespace Data
             }
         }
 
-        public async Task<Person> GetByDocumentAsync(long numberIdentification)
+        public async Task<Person> GetByDocumentAsync(long numberIdentification, string email)
         {
             return await _context.Person
-                .FirstOrDefaultAsync(p => p.NumberIdentification == numberIdentification && p.DeleteDate == null);
+                .FirstOrDefaultAsync(p => p.NumberIdentification == numberIdentification && p.DeleteDate == null );
         }
 
 

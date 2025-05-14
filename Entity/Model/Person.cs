@@ -1,4 +1,5 @@
 ﻿using Entity.Model;
+using Entity.Model.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Model
 {
-    public class Person
+    public class Person : IActivable, IActiveDto
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

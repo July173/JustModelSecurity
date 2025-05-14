@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entity.Model.Interfaces;
 
 namespace Business.Interfaces
 {
@@ -13,6 +14,8 @@ namespace Business.Interfaces
         Task AddAsync(TDto dto);
         Task UpdateAsync(TDto dto);
         Task DeleteAsync(int id);
+        Task<bool> SetActiveAsync<TActiveDto>(TActiveDto dto) where TActiveDto : IActiveDto;
+
     }
 
 }
