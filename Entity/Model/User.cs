@@ -16,7 +16,7 @@ namespace Entity.Model
         public bool Active { get; set; }
         public int PersonId { get; set; }
         public Person Person { get; set; }
-
+    
         public ICollection<UserRol> UserRol { get; set; }
 
     }

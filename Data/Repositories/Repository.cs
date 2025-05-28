@@ -21,7 +21,7 @@ namespace Data.Repositories
         {
             _context = context;
             _dbSet = _context.Set<T>();
-            _logger = logger;
+            _logger = logger;   
         }
 
         public virtual async Task<List<T>> GetAllAsync() => await _dbSet.ToListAsync();
